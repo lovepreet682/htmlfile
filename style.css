@@ -1,0 +1,75 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1686079746732-ab2a86a36b82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1529&q=80");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menuSection {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #333;
+    ;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menuSection a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .menuSection a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .menuSection a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .heading{
+    margin-top: 10%;
+  }
+  .subHeading{
+   margin: auto;
+    width: 380px;
+    height: 240px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .subHeading h2{
+    text-align:center;
+    padding-bottom: 10px;
+    color: red;
+  }
+
+  button{
+    width: 176px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: #04AA6D;
+    color: white;
+    margin-top: 20px;
+  }
+  button a{
+    text-decoration: none;
+  }
+
+  .button a:hover {
+    background-color: #ddd;
+    color: black;
+  }
